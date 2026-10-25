@@ -1,0 +1,16 @@
+{
+  "name": "explainer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "voice": "node --env-file=../.env voice.mjs",
+    "studio": "remotion studio",
+    "render": "remotion render Explainer out/explainer.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538"
+  }
+}

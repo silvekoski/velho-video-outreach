@@ -1,0 +1,88 @@
+{
+  "profiles": {
+    "mikko.rantala@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 85
+    },
+    "anna.lehtola@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 120
+    },
+    "juha.salonen@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 210
+    },
+    "sari.mäkelä@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 64
+    },
+    "petri.kaarna@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 95
+    },
+    "laura.virtanen@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 38
+    },
+    "timo.hakala@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 140
+    },
+    "kristian.nyholm@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 72
+    },
+    "marja.heikkinen@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 88
+    },
+    "antti.turunen@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 160
+    },
+    "jari.lehtinen@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 110
+    },
+    "elina.koskinen@example.com": {
+      "languages": [
+        "fi",
+        "en"
+      ],
+      "staffCount": 230
+    }
+  }
+}

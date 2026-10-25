@@ -1,0 +1,9 @@
+@media print {
+  [data-sonner-toaster] {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+}

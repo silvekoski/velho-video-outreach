@@ -1,0 +1,114 @@
+[
+  {
+    "id": "hook",
+    "kicker": "Velho hackathon challenge",
+    "title": "Personal video outreach that books meetings",
+    "items": [],
+    "text": "A company owner gets a short video. It shows their own website, speaks their language, and is narrated by the analyst who wants to meet them. One tap later, a meeting is in the calendar. This is VideoOutreachOS, our answer to the Velho hackathon challenge."
+  },
+  {
+    "id": "problem",
+    "kicker": "The challenge",
+    "title": "Get a busy owner into a meeting",
+    "items": [
+      "Owners get generic pitches every day",
+      "Manual work between a CRM name and a call",
+      "Cold emails are easy to ignore"
+    ],
+    "text": "The Velho challenge: reach the decision maker of an established company at the right moment, with something more useful than a generic pitch. Owners and CEOs are busy, and they get cold messages every day. Between a name in the CRM and a booked call there is a lot of manual work, and most cold emails are simply ignored."
+  },
+  {
+    "id": "idea",
+    "kicker": "The idea",
+    "title": "Replace the cold email with a personal video",
+    "items": [
+      "The prospect's own website on screen",
+      "The analyst's face and cloned voice",
+      "A link, not an attachment"
+    ],
+    "text": "So instead of a cold email, the owner gets a link to a personal video. The analyst records a thirty second face-cam intro once. After that, the tool makes the rest of every video automatically, in the analyst's own cloned voice."
+  },
+  {
+    "id": "pipeline",
+    "kicker": "Draft stage",
+    "title": "The worker builds each video",
+    "items": [
+      "Scrape the website with Firecrawl",
+      "Fetch revenue from Asiakastieto",
+      "Find matching buyers in MGX",
+      "Write the script with Kimi via Featherless",
+      "Voice it with ElevenLabs",
+      "Render the slides with Revideo"
+    ],
+    "text": "Here is what happens when an analyst picks a deal. The worker reads the company, the contact and the website from Pipedrive, and scrapes the site. It gets revenue and profit from Asiakastieto for Finnish companies. It asks the MGX deal database for buyers that match the industry. A language model writes the script, ElevenLabs speaks it in the analyst's voice, and the slides are rendered into a video."
+  },
+  {
+    "id": "review",
+    "kicker": "Review stage",
+    "title": "A human approves every video",
+    "items": [
+      "Check the script and the slides",
+      "Edit and re-render if needed",
+      "Approve and publish",
+      "Copy a link per channel"
+    ],
+    "text": "Nothing goes out on its own. The deal moves to Review, where the analyst checks the script and every slide. When it looks right, they select Approve and publish, and copy a tracked link for email, LinkedIn, SMS or WhatsApp."
+  },
+  {
+    "id": "page",
+    "kicker": "The video page",
+    "title": "Made for an owner on a phone",
+    "items": [
+      "Personal video in six languages",
+      "Valuation calculator gives a range",
+      "Book a Teams meeting with the analyst",
+      "Privacy notice and office contacts"
+    ],
+    "text": "The owner opens the link on their phone. The page plays the video in Finnish, Swedish, Norwegian, Danish, German or English. Below it, a short form and a valuation calculator show a value range, based on profit and multiples from closed deals in the same industry. And one button books a Teams meeting directly with the analyst."
+  },
+  {
+    "id": "crm",
+    "kicker": "Pipedrive, in sync",
+    "title": "Every step moves the deal",
+    "items": [
+      "Draft",
+      "Review",
+      "Link sent",
+      "Opened",
+      "Form sent",
+      "Meeting booked"
+    ],
+    "text": "Every action moves the deal forward in Pipedrive: link sent, opened, form sent, meeting booked. The tool records opens, watch time and the slide where the owner stopped. If the owner does not open the link in two days, it creates a call task. If they open it but do not book, it creates a task to send the link on a second channel."
+  },
+  {
+    "id": "brief",
+    "kicker": "Before the meeting",
+    "title": "A one-page brief, and real numbers",
+    "items": [
+      "Meeting brief readable in two minutes",
+      "Session replays in the admin panel",
+      "Open, watch, form and meeting rates",
+      "Per analyst and per country"
+    ],
+    "text": "When a meeting is booked, the worker writes a one page meeting brief, so the analyst is ready in two minutes. Managers see open rates, watch time, form rates and meeting rates for each analyst and each country, so the video sequence can be compared with the old text sequence."
+  },
+  {
+    "id": "stack",
+    "kicker": "Under the hood",
+    "title": "Simple to run, safe to demo",
+    "items": [
+      "Hono API and worker, SQLite in WAL mode",
+      "React admin panel built with Vite",
+      "Local fakes for every external service",
+      "Playwright tests on mobile Chrome and Safari"
+    ],
+    "text": "Under the hood it is a Hono API and a worker sharing one SQLite database, with a React admin panel. Every external service has a local fake, so the whole system runs as a demo without a single API key."
+  },
+  {
+    "id": "close",
+    "kicker": "VideoOutreachOS",
+    "title": "Turn prospects into booked meetings",
+    "items": [],
+    "text": "Personal at scale, with a human in control. That is VideoOutreachOS, built for the Velho hackathon challenge."
+  }
+]
